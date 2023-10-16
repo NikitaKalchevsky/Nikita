@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Портфолио Сергія Сірко</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header">
+
+    <div class="container">
+      <nav class="menu">
+        <a class="logo" href="#">
+          <img class="logo__img" src="images/logo.png" alt="Логотип">
+        </a>
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a href="#" class="menu__link">
+              Про мене
+            </a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">
+              Навички
+            </a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">
+              Послуги
+            </a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">
+              Портфоліо
+            </a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">
+              Відгуки
+            </a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">
+              Контакти
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__content">
+
+        <h1 class="header__title">
+          <span class="header__subtitle">Вітаю, я Сергій Сірко</span>frontend-розробник
+        </h1>
+        <a class="header__link" href="#">
+          дивитися роботи
+        </a>
+
+      </div>
+    </div>
+
+  </header>
+  <main class="main">
+    <section class="about section">
+      <div class="container">
+        <h2 class="title">
+          Про мене
+        </h2>
+        <div class="about__text">
+          <p>
+            Вітаю всіх на своєму сайті! Мене звати Сергій, я з Івано-Франківська. Займаюся фронтенд-розробкою трохи
+            більше року. До
+            розробки займався нелюбимою справою, ходив на роботу, що не подобалася мені, не міг зрозуміти, як знайти
+            працю за
+            покликанням і робити те, що подобається, заробляючи собі на життя, допоки не знайшов один цікавий курс.
+          </p>
+          <p>
+            З того часу багато чого дізнався, навчання давалося по-різному: десь легше, десь складніше. Щоденна робота
+            над навичками
+            та зусилля, яких я докладав, вже за кілька місяців принесли плоди - вдалось взяти замовлення на фрілансі. З
+            відгуками
+            від задоволених клієнтів та прикладами моїх робіт можна ознайомитися нижче
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="skill section">
+      <div class="container">
+        <h2 class="title">
+          Навички
+        </h2>
+        <div class="skill__inner">
+          <img class="skill__photo" src="images/skills.jpg" alt="Фото Сергія Сiрко">
+          <div class="skill__items">
+            <div class="skill__info">
+              html
+              <div class="skill__item">
+                <div class="skill__line" style="width: 85%;"></div>
+              </div>
+            </div>
+            <div class="skill__info">
+              css
+              <div class="skill__item">
+                <div class="skill__line" style="width: 80%;"></div>
+              </div>
+            </div>
+            <div class="skill__info">
+              js
+              <div class="skill__item">
+                <div class="skill__line" style="width: 61%;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="servises section">
+      <div class="container">
+
+        <h2 class="title">
+          Послуги
+        </h2>
+        <div class="servises__items">
+          <div class="servises__item servises__item--code">
+            <h3 class="servises__title">
+              Верстка проєктів
+            </h3>
+            <p class="servises__text">
+              Зроблю якісну верстку вашого проєкта за наявним макетом або прикладами робіт, які вам подобаються
+            </p>
+          </div>
+          <div class="servises__item servises__item--dev">
+            <h3 class="servises__title">
+              Посадка на CMS
+            </h3>
+            <p class="servises__text">
+              Інтегрую ваш проєкт з однією з популярних CMS
+            </p>
+          </div>
+          <div class="servises__item servises__item--chat">
+            <h3 class="servises__title">
+              Підтримка сайта
+            </h3>
+            <p class="servises__text">
+              Гарантую підтримку вашого сайта протягом 30 днів післе здачі проєкта
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="works section">
+      <div class="container">
+        <h2 class="title">
+          Мої роботи
+        </h2>
+
+        <ul class="works__items">
+          <li class="works__item">
+            <button class="works__btn" data-filter="all">Усі роботи</button>
+          </li>
+          <li class="works__item">
+            <button class="works__btn" data-filter=".category-a">Лендінги</button>
+          </li>
+          <li class="works__item">
+            <button class="works__btn" data-filter=".category-b">Корпоративні</button>
+          </li>
+          <li class="works__item">
+            <button class="works__btn" data-filter=".category-c">E-commerce</button>
+          </li>
+        </ul>
+
+        <ul class="works__content">
+          <li class="works__image mix category-a">
+            <img class="works__picture" src="images/works/1.jpg" alt="море">
+          </li>
+          <li class="works__image mix category-a">
+            <img class="works__picture" src="images/works/2.jpg" alt="мост с лодками">
+          </li>
+          <li class="works__image mix category-b">
+            <img class="works__picture" src="images/works/3.jpg" alt="мост в городе">
+          </li>
+          <li class="works__image mix category-b">
+            <img class="works__picture" src="images/works/4.jpg" alt="закат в городе">
+          </li>
+          <li class="works__image mix category-c">
+            <img class="works__picture" src="images/works/5.jpg" alt="прилив">
+          </li>
+          <li class="works__image mix category-c">
+            <img class="works__picture" src="images/works/6.jpg" alt="скала">
+          </li>
+        </ul>
+
+        </div>
+        <button class="works__button">Завантажити ще</button>
+      </div>
+    </section>               
+
+
+  </main>
+  <footer class="footer">
+
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="js/mixitup.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
