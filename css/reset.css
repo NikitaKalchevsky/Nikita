@@ -1,16 +1,17 @@
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
+
 }
 
 *,
 *::after,
 *::before {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 ul,
 ol {
-    padding: 0;
+  padding: 0;
 }
 
 body,
@@ -28,34 +29,41 @@ figure,
 figcaption,
 blockquote,
 dl,
-dd {
-    margin: 0;
+cite,
+q,
+a,
+dd,
+link {
+  margin: 0;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 img {
-    max-width: 100%;
-    display: block;
+  max-width: 100%;
+  display: block;
 }
 
+
+cite,
 input,
 button,
 textarea,
 select {
-    font: inherit;
+  font: inherit;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
-    outline: transparent;
+a,
+q {
+  text-decoration: none;
+  color: inherit;
+  outline: transparent;
 }
 
 button {
@@ -63,5 +71,19 @@ button {
   border: none;
   padding: 0;
   cursor: pointer;
-  outline: transparent;
+  outline: 3px solid transparent;
+}
+
+input {
+  border: none;
+  outline: 3px solid transparent;
+}
+
+textarea {
+  border: none;
+  outline: 3px solid transparent;
+}
+
+address {
+  font-style: normal;
 }
