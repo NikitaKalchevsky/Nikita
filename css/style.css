@@ -91,7 +91,6 @@ body {
 }
 
 .menu {
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -149,12 +148,9 @@ body {
 
 .menu__list {
   display: flex;
-
   font-weight: 600;
   height: 100%;
-
 }
-
 
 .menu__item:not(:last-child) {
   margin-right: 30px;
@@ -757,10 +753,6 @@ body {
     margin-top: 7px;
   }
 
-
-
-
-
   .menu__btn {
     display: block;
     width: 44px;
@@ -815,11 +807,6 @@ body {
   .menu__btn.active .menu__line::after {
     transform: translateY(-10px) rotate(-45deg);
   }
-
-  /* .menu {
-    padding-top: 50px;
-  } */
-
 
   .menu__link:focus,
   .menu__link:active {
